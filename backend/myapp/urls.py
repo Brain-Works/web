@@ -9,14 +9,17 @@ from myapp.views.register_views import register_view
 from myapp.views.home_views import home_view
 from myapp.views.analysis_result_views import PredictView
 from myapp.views.logout_views import logout_view
+from myapp.views import upload_views, report_views
+
 
 urlpatterns = [
-    path('upload_image/', upload_image, name='upload_image'),
+    path('upload_image/', upload_views.upload_image, name='upload_image'),
     path('',login_view, name='login'),
     path('register/', register_view, name='register'),
     path('home/', home_view, name='home'),
     path('analysis_result', PredictView.as_view(), name='analysis_result'),
     path('logout/', logout_view, name='logout'),
+    path('download_report/', report_views.download_report, name='download_report'),
 ]
 
 if settings.DEBUG:
