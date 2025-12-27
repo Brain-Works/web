@@ -97,16 +97,12 @@ AI 모델이 자동으로 분석 결과와 시각화를 제공하고
 - **ADNI**
 - Longitudinal MRI data with clinical metadata
 
----
-
 ## Expected Impact
 
 - 알츠하이머 조기 발견 가능성 향상
 - 진단 시간 단축 및 의료 비용 절감
 - 의료진 간 판독 편차 감소
 - 병원 · 연구기관 등 활용 가능
-
----
 
 ## 📌 Project Info
 
